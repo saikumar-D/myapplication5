@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".change_status"
+    android:background="#54B300">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/edit_your_status_inchange"
+        android:id="@+id/edit_status"
+        android:textSize="30sp"
+        android:inputType="text"
+        android:textColorHint="#B31B00"
+        android:autofillHints="esit_status"
+        android:layout_marginTop="90dp"/>
+
+    <Button
+        android:id="@+id/editstatusbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_status"
+        android:layout_marginTop="90dp"
+        android:text="@string/click_to_apply_in_change"
+        android:background="@color/colorAccent"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>

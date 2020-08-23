@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Wings</string>
+    <string name="title_activity_navigatoin">Navigatoin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="name_in_profile">Name</string>
+    <string name="status_in_profile">status</string>
+    <string name="request_in_profile">Request</string>
+    <string name="decline_request_in_profile">Decline Request</string>
+    <string name="edit_your_status_inchange">Edit your status</string>
+    <string name="click_to_apply_in_change">click to apply</string>
+    <string name="btntosend">btntosend</string>
+    <string name="btntoaddimage">btntoaddimage</string>
+    <string name="messege_in_chat">messege</string>
+    <string name="welcome_to_login_page">Welcome to login page</string>
+    <string name="email_in_login">Email</string>
+    <string name="password_in_login">password</string>
+    <string name="submit_login">submit</string>
+    <string name="have_acount">Have account just log in need</string>
+    <string name="register_here">Register Here</string>
+    <string name="email_inmain">Email</string>
+    <string name="password_in_main">password</string>
+    <string name="submit_in_main">submit</string>
+    <string name="name_in">Name</string>
+    <string name="display_name_in_settings">Display_name</string>
+    <string name="status_id_here_in_settings">Status id here</string>
+    <string name="change_image_in_settings">change_image</string>
+    <string name="change_status_in_settings">change_status</string>
+    <string name="display_name_chatbar_custom">Display_name</string>
+    <string name="profile_in_chatbar_custom">profile</string>
+    <string name="display_name_in_friends">Display name</string>
+    <string name="default_status_in_friends">default status</string>
+    <string name="message_in_message">message</string>
+    <string name="wings_in_navheader">Wings</string>
+    <string name="welcom_to_home_page">Welcom to home page</string>
+    <string name="default_status_insingeuser">default status</string>
+    <string name="display_name_in_singleuser">Display name</string>
+
+</resources>

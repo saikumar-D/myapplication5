@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chat">
+
+    <include
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/chat_msg"
+        android:id="@+id/chat_recycle"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="15dp" />
+    <ImageButton
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/check"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/plus"
+
+        android:contentDescription="@string/btntoaddimage"
+        android:layout_marginRight="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:hint="@string/messege_in_chat"
+        android:id="@+id/chat_msg"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+        android:autofillHints="message"
+        android:paddingRight="30sp"
+        android:paddingLeft="30sp"/>
+    <ImageButton
+        android:layout_width="28sp"
+        android:layout_height="28sp"
+        android:src="@drawable/sendcheck2"
+        android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+        android:contentDescription="@string/btntosend"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/send"
+
+        android:layout_marginRight="15sp"/>
+
+
+</RelativeLayout>

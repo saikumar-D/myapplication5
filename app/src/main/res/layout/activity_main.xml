@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#30B300"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_here"
+        android:id="@+id/main_reg"
+        android:textColor="#B3004E"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_in"
+        android:autofillHints="Name"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:layout_centerInParent="true"
+        android:id="@+id/main_name"
+        android:textColorHint="#B30062"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_email"
+        android:hint="@string/email_inmain"
+
+        android:inputType="textEmailAddress"
+        android:textColorHint="#B32400"
+        android:autofillHints="Email"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/main_pass"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_pass"
+        android:layout_below="@+id/main_name"
+        android:autofillHints="password"
+        android:hint="@string/password_in_main"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#B30600"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_btn"
+        android:layout_below="@+id/main_email"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/submit_in_main"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_btn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/main_log"
+        android:text="@string/have_acount"/>
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_progress"
+        android:visibility="invisible"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#54B300"
+    tools:context=".settings">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FFEB3B"
+        app:civ_border_width="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:text="@string/display_name_in_settings"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:padding="20sp"
+        android:textColor="#B30F00"
+        android:id="@+id/profile_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_name"
+        android:id="@+id/profile_status"
+        android:text="@string/status_id_here_in_settings"
+        android:textColor="#B31B00"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:padding="2sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="@string/change_image_in_settings"
+        android:layout_below="@+id/profile_status"
+        android:id="@+id/profile_change_image"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/profile_change_status"
+        android:layout_below="@+id/profile_change_image"
+        android:layout_centerHorizontal="true"
+        android:text="@string/change_status_in_settings"/>
+
+
+
+</RelativeLayout>
